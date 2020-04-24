@@ -10,8 +10,8 @@
 
   .container {
     display: grid;
-    min-width: min-content;
-    max-width: fit-content;
+    min-width: fit-content;
+    max-width: max-content;
     max-height: fit-content;
     min-height: min-content;
     color: black;
@@ -19,7 +19,7 @@
     border: 3px solid black;
     font-family: "Frozito";
   }
-
+/*#region "HOME"*/
   header {
     grid-row: 1;
     color: white;
@@ -121,7 +121,7 @@
     margin-bottom: 5%;
     margin-top: 5%;
     width: 350px;
-    height: 90px;
+    height: 120px;
   }
 
   .booking_button {
@@ -166,3 +166,62 @@
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+  /*#endregion*/
+
+ .about{
+     grid-row: 2;
+     background-image: url("pictures/elsa2.jpeg");
+     background-repeat: no-repeat;
+     max-width: initial;
+     padding-bottom: 8%;
+     justify-items: right;
+     padding-right: 4%;
+ }
+
+ .about_article{
+    display: flex;
+     flex-direction: column;
+     text-align: right; 
+     box-sizing: border-box;
+     text-align: center;
+     float: right;
+     margin-top: 5%;
+     margin-right: 4%;
+     padding-left: 3%;
+     background-color: rgba(255, 255, 255, 0.705);
+ }
+
+ .about_title{
+     padding-top: 10%;
+     font-size: 40px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 5%;
+ }
+
+.divider{
+    opacity: 0.8;
+    display: block;
+    margin-left: 11%;
+    width: 350px;
+    height: 120px;
+    padding-bottom: 5%;
+}
+ .about_text{
+    width: 450px;
+    height: max-content;
+    overflow: auto;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   margin-bottom: 5%;
+ }
+ .fancy{
+   /* border: 1px black solid; */
+   border-radius: 30%;
+   width: 150px;
+   height: 150px;
+   margin-left: 30%;
+   box-shadow: 2px 2px 2px 2px #666;
+ }
+ 
