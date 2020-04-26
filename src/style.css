@@ -31,14 +31,14 @@
     background-size: cover;
     min-width: min-content;
     min-height: min-content;
-    max-width: max-content;
+    max-width: 100vw;
   }
 
   nav {
     grid-row: 1;  
     min-width: fit-content;
     min-height: fit-content; 
-    max-width: max-content;
+    max-width: 100vw;
     display: inline-flex;
     justify-self: left;
     margin-bottom: 5%;
@@ -51,7 +51,8 @@
     text-align: left;
     color: #e4e5e5;
     margin-top: 1%;
-    padding-right: 20%;
+    padding-left: 2%;
+    padding-right: 13%;
   }
 
   .navigation_buttons{
@@ -87,7 +88,7 @@
     justify-self: flex-end;
     letter-spacing: 10px;
     padding-left: 2%;
-    padding-right: 0%;
+    padding-right: 2%;
     padding-top: 1.5%;
   }
   .icon {
@@ -227,7 +228,7 @@
  }
  /*#endregion*/
 
- /*#region "Menu"*/
+ /*#region "Ingredients"*/
  .ingredients {
     grid-row: 3;
     background-image: url("pictures/walpaper2.png");
@@ -290,7 +291,8 @@
   border-radius: 50%;
 }
 /*#endregion*/
-
+ 
+/*#region "Menu"*/
 .menu {
   grid-row: 4;
   background-color: white;
@@ -303,10 +305,10 @@
   flex-wrap: wrap;
   margin-top: 7%;
   align-content: space-between;
-  margin-left: 10%;
+  margin-left: 5%; 
   overflow: hidden;
   column-count: 2;
-  max-width: 1050px;
+  max-width: 90%;
   max-height: 1000px;
   margin-bottom: 5%;
   opacity: 4;
@@ -448,3 +450,63 @@ left: 18%;
 top: 250%; */
 /* display: none;  */
 
+/*#endregion*/
+
+.reviews {
+  grid-row: 5;
+  background-image: url("pictures/Olaf_long.png");
+  background-repeat: no-repeat;
+  max-width: initial;
+  background-size: cover;
+}
+
+.rev {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(1, 1, 1, 0.5);
+  align-items: center;
+  margin-top: 3%;
+  float: right;
+  max-width: 770px;
+  max-height: 600px;
+  text-align: center;
+margin-bottom: 3%;
+margin-right: 2%;
+padding-left: 2%;
+padding-right: 2%;
+padding-bottom: 2%;
+}
+
+.rev_title {
+  width: 335px;
+  height: 34px;
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  opacity: 0.9;
+  padding-top: 8%;
+}
+
+.rev_divider {
+  width: 250px;
+  height: 100px;
+}
+
+.rev_text {
+  width: 622px;
+  height: 267px;
+  color: #dde0df;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 45px;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+}
+
+.end {
+  margin-top: 8%;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 30%;
+}
