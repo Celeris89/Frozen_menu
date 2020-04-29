@@ -169,5 +169,50 @@
             <p class="end">- food inc, New York</p>
         </section>
     </div>
+    <div id="reservations" class="reservations">
+        
+        <img class="bitki" src="src/pictures/bitki.png" alt="picture of beef">
+        <div>
+            <img class="cherry" src="src/pictures/cherry.png" alt="picture of a dessert">
+            <img class="sven" src="src/pictures/sven2.png" alt="sven sitting on top of the other picture">
+        </div>
+        <section class="text_part">
+            <h2 class="res_title">Book your table</h2>
+            <img class="res_divider" src="src/pictures/decoration_without.png" alt="divider">
+            <p class="res_text">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. 
+                Perfect materials and freshly baked food.<br>
+                <br>Delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!
+                Perfect materials and freshly baked food.</p>
+            <div>
+                <div class="forms">
+                    <form class="forms_name">
+                        <label for="name"><b>Name</b></label>
+                        <input id="name" type="text" placeholder="your name*" name="name" required>
+                    </form>
+                    <form class="email">
+                        <label for="email"><b>E-mail</b></label>
+                        <input id="email" type="email" placeholder="your e-mail*" name="email" required>  
+                    </form>
+                    <form class="date">
+                        <label for="date">Date</label>
+                        <input id="date" type="date" name="date" required>
+                    </form>
+                    <form class="party">
+                        <label for="party">Party number</label>
+                        <select id="party" name="party">
+                            <option  hidden value="default">party number</option>
+                            <option value="single">One</option>
+                            <option value="Romantic">Two</option>
+                            <option value="Family">Four</option>
+                            <option value="Meetup">More than 6</option>
+                      </select>
+                    </form>
+                    <form>
+                        <button class="submit_bt" type="submit">Book Now!</button>
+                    </form>
+                </div>
+            </div>    
+        </section>
+    </div>
 </body>
 </html>

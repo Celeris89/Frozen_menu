@@ -438,20 +438,10 @@
   margin-top: 5%; 
   z-index: 2;
 }
-/* 
-.static:hover {
-  opacity:0;
-}  */
-/* .active{
-  max-width: 100%;
-max-height: 100%;
-position: absolute;
-left: 18%;
-top: 250%; */
-/* display: none;  */
 
 /*#endregion*/
 
+/*#region "Reviews"*/
 .reviews {
   grid-row: 5;
   background-image: url("pictures/Olaf_long.png");
@@ -509,4 +499,169 @@ padding-bottom: 2%;
   font-size: 18px;
   font-weight: 400;
   margin-left: 30%;
+}
+
+/*#endregion*/
+
+.reservations {
+  grid-row: 6;
+  display: grid;
+  grid-template-columns: 3 auto;
+  max-width: initial;
+}
+.sven{
+  position: relative;
+  z-index: 1;
+  width: 230px;
+  height: 260px;
+  left: -4%;
+  transform: rotate(90deg);
+  top: -7%;
+}
+
+.bitki {
+  grid-column: 1;
+  width: 270px;
+  height: 507px;
+  padding-top: 30%;
+  padding-left: 10%; 
+  z-index: 1;
+  padding-right: 5%;
+  margin-bottom: -30%;
+}
+.cherry {
+  grid-column: 2;
+  width: 270px;
+  height: 507px;
+  padding-top: 18%;
+  z-index: 0.5;
+  padding-left: 1%;
+  margin-bottom: -30%;
+}
+
+.text_part {
+  grid-column: 3;
+  text-align: center;
+  max-width: 460px;
+  min-width: fit-content;
+  z-index: 3;
+  margin-left: -50%;
+  margin-top: 10%;
+  padding-bottom: -30%;
+  margin-bottom: auto;
+}
+
+.res_title {
+  color:  #1b73a7;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 15%;
+}
+
+.res_divider {
+  width: 230px;
+  height: 80px;
+  padding-bottom: 1%;
+  opacity: 0.7;
+}
+
+.res_text {
+  width: 417px;
+  color: #1b73a7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 10%;
+  opacity: 1;
+}
+
+.forms {
+  display: grid;
+  grid-template-rows: 3 auto;
+  margin-top: 5%;
+  text-align: left;
+  margin-left: 5%;
+}
+
+input {
+  width: 200px;
+  height: 36px;
+  border: 1px solid #1b73a7;
+  background-color: #ffffff;
+  opacity: 0.8;
+  color: #7c7c7c;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: italic;
+}
+
+select {
+  width: 200px;
+  height: 36px;
+  border: 1px solid #1b73a7;
+  background-color: #ffffff;
+  opacity: 0.8;
+  color: #7c7c7c;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: italic;
+}
+
+label {
+  color: #1b73a7;
+  font-family: "Frozito";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.forms_name {
+  grid-row: 1;
+  width: min-content;
+  margin-bottom: 10%;
+}
+.email {
+  grid-row: 1;
+  margin-left: 32px;
+  width: min-content;
+  margin-bottom: 10%;
+}
+.date {
+  grid-row: 2;
+  width: min-content;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.date > input::after {
+  font-family: "Font Awesome 5 Free";
+  font-size: 18px;
+  font-weight: 400;
+  content: "\f073";
+  padding-right: 10px;
+  z-index: 4;
+  font-style: normal;
+}
+
+.party {
+  grid-row: 2;
+  margin-left: 33px;
+  width: min-content;
+}
+
+.submit_bt {
+  width: 200px;
+  height: 36px;
+  border: 1px solid #1b73a7;
+  background-color: #1b73a7;
+  color: #ffffff;
+  font-family: "Frozito";
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 50%;
+  margin-top: 20%;
 }
