@@ -15,9 +15,9 @@
 } */
 
 .container {
-  -ms-transform: scale(1.1, 1.1);
-  -webkit-transform: scale(1.1, 1.1);
-  transform: scale(1.1, 1.1);
+  -ms-transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
   }
 
 .container {
@@ -508,7 +508,7 @@ nav {
   grid-row: 6;
   display: grid;
   grid-template-columns: 3 auto;
-  max-width: initial;
+  max-width: inherit;
   min-height: fit-content;
   min-width: fit-content;
   margin-bottom: auto;
@@ -520,8 +520,8 @@ nav {
 
 .bitki {
   grid-column: 1;
-  width: 270px;
-  height: 507px;
+  width: 90%;
+  height: 90%;
   padding-top: 18%;
   padding-left: 10%;
   z-index: 1;
@@ -530,11 +530,11 @@ nav {
 
 .cherry {
   grid-column: 2;
-  width: 270px;
-  height: 507px;
+  width: 90%;
+  height: 90%;
   padding-top: 18%;
   z-index: 0.5;
-  padding-left: 1%;
+  padding-left: 3%;
 }
 
 .text_part {
@@ -543,6 +543,8 @@ nav {
   z-index: 3;
   margin-top: 5%;
   background-color: rgba(255, 255, 255, 0.781);
+  margin-right: auto;
+  margin-bottom: 5%;
 }
 
 .res_title {
@@ -562,13 +564,13 @@ nav {
 }
 
 .res_text {
-  width: 417px;
+  width: 90%;
   color: #1b73a7;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  margin-left: 10%;
   opacity: 1;
+  margin-left: 5%;
 }
 
 .forms {
@@ -576,12 +578,13 @@ nav {
   grid-template-rows: 3 auto;
   margin-top: 5%;
   text-align: left;
-  margin-left: 5%;
+  margin-left: 10%;
+  width: inherit;
+  height: fit-content;
 }
 
 input {
-  width: 200px;
-  height: 36px;
+  height: 100%;
   border: 1px solid #1b73a7;
   background-color: #ffffff;
   opacity: 0.8;
@@ -592,8 +595,8 @@ input {
 }
 
 select {
-  width: 200px;
-  height: 36px;
+  width: 70%;
+  height: 80%;
   border: 1px solid #1b73a7;
   background-color: #ffffff;
   opacity: 0.8;
@@ -612,18 +615,20 @@ label {
 
 .forms_name {
   grid-row: 1;
-  width: min-content;
   margin-bottom: 10%;
+  height: 50%;
 }
 .email {
   grid-row: 1;
-  margin-left: 32px;
   width: min-content;
+  height: 50%;
   margin-bottom: 10%;
 }
+
 .date {
   grid-row: 2;
-  width: min-content;
+  width: 100%;
+  height: 80%;
 }
 
 input[type="date"]::-webkit-inner-spin-button,
@@ -637,29 +642,30 @@ input[type="date"]::-webkit-outer-spin-button {
   font-size: 18px;
   font-weight: 400;
   content: "\f073";
-  padding-right: 10px;
+  padding-right: 10%;
   z-index: 4;
   font-style: normal;
 }
 
 .party {
   grid-row: 2;
-  margin-left: 33px;
-  width: min-content;
+  width: 100%;
+  height: 100%;
 }
 
 .submit_bt {
-  width: 200px;
-  height: 36px;
   border: 1px solid #1b73a7;
   background-color: #1b73a7;
   color: #ffffff;
   font-family: "Frozito";
   font-size: 16px;
   font-weight: 400;
-  margin-left: 50%;
   margin-top: 20%;
   margin-bottom: 10%;
+  margin-left: 40%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
 }
 /*#endregion*/
 
