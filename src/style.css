@@ -28,7 +28,7 @@
 
 .container {
   display: grid;
-  min-width: fit-content;
+  min-width: min-content;
   max-width: 1000px;
   max-height: fit-content;
   min-height: min-content;
