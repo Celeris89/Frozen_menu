@@ -8,13 +8,13 @@
   src: url("fonts/Frozito-eZ99g.ttf");
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   .container {
     max-width: 700px;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
   .container {
     max-width: 300px;
   }
@@ -95,7 +95,6 @@ nav {
   transform: translateY(10px);
 }
 .social_icons {
-  /* display: inline-flex; */
   float: right;
   font-family: "Font Awesome";
   font-size: 21px;
@@ -124,6 +123,7 @@ nav {
   justify-self: center;
   justify-content: center;
   margin-bottom: 8%;
+  margin-top: 8%;
 }
 .title {
   margin-bottom: 10%;
