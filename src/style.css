@@ -9,22 +9,22 @@
 }
 
 @media (max-width: 800px) {
-  .container {
+  body.container {
     max-width: 700px;
   }
 }
 
 @media (max-width: 450px) {
-  .container {
+  body.container {
     max-width: 300px;
   }
 }
-
+/* 
 .container {
   -ms-transform: scale(1, 1);
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
-  }
+  } */
 
 .container {
   display: grid;
