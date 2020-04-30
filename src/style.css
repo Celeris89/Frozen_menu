@@ -7,18 +7,18 @@
   font-family: "Frozito";
   src: url("fonts/Frozito-eZ99g.ttf");
 }
-
+/* 
 @media screen and (max-width: 700px) {
   .container {
     max-width: 700px;
   }
-}
+} */
 
-/* .container {
+.container {
   -ms-transform: scale(1.1, 1.1);
   -webkit-transform: scale(1.1, 1.1);
   transform: scale(1.1, 1.1);
-  } */
+  }
 
 .container {
   display: grid;
