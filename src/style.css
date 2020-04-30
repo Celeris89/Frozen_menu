@@ -47,7 +47,7 @@ header {
   grid-template-rows: 2;
   background-image: url("pictures/scenery.jpg");
   background-size: cover;
-  max-width: initial;
+  max-width: inherit;
   min-width: min-content;
 }
 
@@ -182,7 +182,7 @@ nav {
   grid-row: 2;
   background-image: url("pictures/elsa2.jpeg");
   background-repeat: no-repeat;
-  max-width: initial;
+  max-width: inherit;
   padding-bottom: 8%;
   justify-items: right;
   padding-right: 4%;
@@ -243,7 +243,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   min-width: min-content;
-  max-width: initial;
+  max-width: inherit;
 }
 
 .ingredients_article {
@@ -305,7 +305,7 @@ nav {
   grid-row: 4;
   background-color: white;
   min-width: fit-content;
-  max-width: initial;
+  max-width: inherit;
   padding-left: 3%;
   padding-right: 3%;
   padding-bottom: 2%;
@@ -459,7 +459,7 @@ nav {
   grid-row: 5;
   background-image: url("pictures/Olaf_long.png");
   background-repeat: no-repeat;
-  max-width: initial;
+  max-width: inherit;
   background-size: cover;
 }
 
@@ -693,7 +693,7 @@ footer {
   color: white;
   padding-left: 5%;
   padding-right: 5%;
-  width: initial;
+  width: inherit;
   padding-bottom: 5%;
 }
 
