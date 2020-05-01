@@ -10,31 +10,32 @@
 
 @media (max-width: 800px) {
   body.container {
-    max-width: 700px;
+    max-width: 800px;
+    margin: auto;
   }
 }
 
 @media (max-width: 450px) {
   body.container {
-    max-width: 300px;
+    max-width: 400px;
+    margin: auto;
   }
 }
-/* 
+
 .container {
   -ms-transform: scale(1, 1);
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
-  } */
+  }
 
 .container {
   display: grid;
-  min-width: min-content;
+  min-width: auto;
   max-width: 1000px;
   max-height: fit-content;
   min-height: min-content;
   color: black;
   grid-template-rows: repeat(7, auto);
-  border: 3px solid #1b73a7;
   font-family: "Frozito";
   margin: auto;
 }
@@ -47,16 +48,16 @@ header {
   grid-template-rows: 2;
   background-image: url("pictures/scenery.jpg");
   background-size: cover;
-  max-width: inherit;
-  min-width: min-content;
+  max-width: auto;
+  min-width: auto;
 }
 
 nav {
   grid-row: 1;
   display: inline-flex;
   justify-self: space-between;
-  max-width: inherit;
-  min-width: min-content;
+  max-width: auto;
+  min-width: auto;
   justify-content: space-between;
 }
 
@@ -125,7 +126,7 @@ nav {
   justify-content: center;
   margin-bottom: 8%;
   margin-top: 8%;
-  min-width: min-content;
+  min-width: auto;
 }
 .title {
   margin-bottom: 10%;
@@ -182,11 +183,11 @@ nav {
   grid-row: 2;
   background-image: url("pictures/elsa2.jpeg");
   background-repeat: no-repeat;
-  max-width: inherit;
+  max-width: auto;
   padding-bottom: 8%;
   justify-items: right;
   padding-right: 4%;
-  min-width: min-content;
+  min-width: auto;
 }
 
 .about_article {
@@ -242,8 +243,8 @@ nav {
   background-image: url("pictures/walpaper2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: min-content;
-  max-width: inherit;
+  min-width: auto;
+  max-width: auto;
 }
 
 .ingredients_article {
@@ -304,8 +305,8 @@ nav {
 .menu {
   grid-row: 4;
   background-color: white;
-  min-width: fit-content;
-  max-width: inherit;
+  min-width: auto;
+  max-width: auto;
   padding-left: 3%;
   padding-right: 3%;
   padding-bottom: 2%;
@@ -320,7 +321,7 @@ nav {
   overflow: hidden;
   column-count: 2;
   max-width: 100%;
-  min-width: min-content;
+  min-width: auto;
   max-height: 1000px;
   margin-bottom: 5%;
   opacity: 4;
@@ -459,8 +460,9 @@ nav {
   grid-row: 5;
   background-image: url("pictures/Olaf_long.png");
   background-repeat: no-repeat;
-  max-width: inherit;
+  max-width: auto;
   background-size: cover;
+  min-width: auto;
 }
 
 .rev {
@@ -470,13 +472,13 @@ nav {
   align-items: center;
   margin-top: 3%;
   float: right;
-  max-width: 400px;
+  max-width: 700px;
   max-height: max-content;
   text-align: center;
   margin-bottom: 3%;
   margin-right: 2%;
   padding-bottom: 2%;
-  min-width: min-content;
+  min-width: fit-content;
 }
 
 .rev_title {
@@ -520,9 +522,9 @@ nav {
   grid-row: 6;
   display: grid;
   grid-template-columns: 3 auto;
-  max-width: inherit;
+  max-width: auto;
   min-height: fit-content;
-  min-width: min-content;
+  min-width: auto;
   margin-bottom: auto;
   text-align: center;
   background-image: url("pictures/sven2.png");
@@ -693,7 +695,7 @@ footer {
   color: white;
   padding-left: 5%;
   padding-right: 5%;
-  width: inherit;
+  width: auto;
   padding-bottom: 5%;
 }
 
